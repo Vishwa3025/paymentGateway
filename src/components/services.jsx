@@ -4,37 +4,37 @@ import poverty from "../assests/poverty.jpg";
 const Services = () => {
   return (
     <>
-      <div className="bg-black w-full font-['Catamaran']">
-        <div className="flex justify-center text-white">
-          <img src={poverty} className="h-[450px]" alt="" />
+      <div className="w-full font-['Catamaran']">
+        <div className="flex justify-center ">
+          <img src={poverty} className="h-[450px] hidden" alt="" />
         </div>
-        <div className="text-white flex justify-evenly absolute top-36 px-20 font-['Catamaran']">
-          <div className=" w-auto h-auto  text-center lg:backdrop-blur-sm bg-white/0">
-            <div className="px-4 xl:py-5 text-green-400 text-2xl lg:text-3xl xl:text-5xl">
+        <div className="text-white flex flex-col items-center flex md:flex-row justify-evenly px-5 lg:px-20 font-['Catamaran']">
+          <div className="w-auto h-auto text-center lg:backdrop-blur-sm bg-white/0">
+            <div className="px-5 py-5 md:py-2 lg:px-8 xl:py-5 w-full text-center text-green-400 text-2xl lg:text-3xl xl:text-5xl">
               Profound Impact
             </div>
-            <div className="px-2 py-1 xl:py-3 xl:px-3 md:text-md xl:text-xl">
+            <div className="px-2 py-1  xl:py-3 xl:px-3 text-sm md:text-md xl:text-xl">
               Carryon works with nonprofits near and far, small and large. At
               carry you feel good knowing your work has a significant impact on
               these organizations.
             </div>
           </div>
-          <div className="w-auto h-fit  mx-5 text-center rounded-lg backdrop-blur-sm bg-white/0">
-            <div className="px-5 lg:px-8 xl:py-5 text-green-400 text-2xl lg:text-3xl xl:text-5xl">
+          <div className="w-auto h-fit mx-5 text-center rounded-lg backdrop-blur-sm bg-white/0">
+            <div className="px-5 py-5 lg:px-8 xl:py-5 w-full text-center text-green-400 text-2xl lg:text-3xl xl:text-5xl">
               Team Volunteer Grants
             </div>
-            <div className="px-2 py-1 xl:py-3 xl:px-3 md:text-md xl:text-xl">
+            <div className="px-2 py-1 xl:py-3 xl:px-3 text-sm md:text-md xl:text-xl">
               We want to support volunteer outings where groups of employees
               volunteer together. Gather up five colleagues for a volunteer
               outing and we’ll either make a donation to that nonprofit or pay
               for supplies or equipment for the volunteer outing.
             </div>
           </div>
-          <div className=" w-auto h-fit mx-5 text-center lg:backdrop-blur-md bg-white/0.5">
-            <div className="px-4 xl:py-5 text-green-400 text-2xl lg:text-3xl xl:text-5xl">
+          <div className="w-auto h-fit mx-5 text-center lg:backdrop-blur-md bg-white/0.5">
+            <div className="px-5 py-5 lg:px-8 xl:py-5 w-full text-center text-green-400 text-2xl lg:text-3xl xl:text-5xl">
               Fundraising Sponsorship
             </div>
-            <div className="px-2 py-1 xl:py-3 xl:px-3 md:text-lg xl:text-xl">
+            <div className="px-2 py-1 xl:py-3 xl:px-3 text-sm md:text-md xl:text-xl">
               Fundraising for a nonprofit through a Run/Walk/Ride type of event?
               We provide a grant to kick-start your fundraising.
             </div>
@@ -45,7 +45,7 @@ const Services = () => {
           <div className="text-blue-200 text-center text-6xl p-4">
             Our Founders
           </div>
-          <div className="text-5xl xl:text-6xl px-5 py-1 xl:px-10 xl:py-4 text-green-400">
+          <div className="text-5xl xl:text-6xl px-5 py-5 xl:px-10 xl:py-4 text-green-400">
             Adam
           </div>
           <div className="px-5 xl:px-10 xl:py-5 xl:text-xl">
@@ -58,7 +58,7 @@ const Services = () => {
             started to help organizations proactively grow their matching gift
             revenue and focus more of their resources on their core mission.
           </div>
-          <div className="text-5xl px-5 py-1 xl:text-6xl xl:px-10 xl:py-4 text-green-400">
+          <div className="text-5xl px-5 py-5 xl:text-6xl xl:px-10 xl:py-4 text-green-400">
             Kanwei
           </div>
           <div className="px-5 xl:px-10 xl:py-5 xl:text-xl">

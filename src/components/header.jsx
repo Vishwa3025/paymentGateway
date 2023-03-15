@@ -50,7 +50,7 @@ const Header = () => {
       <div
         className={
           nav
-            ? "fixed left-0 text-white md:hidden top-0 border-r border-b border-b-gray-900 border-r-gray-900 w-[100%] text-left  ml-0 p-2 h-[63%] bg-[#000300] ease-in-out duration-500"
+            ? "fixed left-0 text-white md:hidden top-0 w-[100%] text-left ml-0 p-2 h-fit bg-[#000300] ease-in-out duration-500"
             : " fixed left-[-100%]"
         }>
         <div className="flex items-center justify-between">
