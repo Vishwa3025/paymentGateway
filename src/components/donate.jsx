@@ -9,7 +9,7 @@ const Donate = () => {
     setTimeout(() => {
       window.open("https://rzp.io/l/K2MpRoQ7WY");
       navigate("/");
-    }, 3000);
+    }, 1000);
   }, []);
   return (
     <>
