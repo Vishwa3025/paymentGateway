@@ -5,16 +5,12 @@ import Rocket from "../assests/Rocket.json";
 
 const Donate = () => {
   const navigate = useNavigate();
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     window.open(
-  //       // "https://payments-test.cashfree.com/forms/dopayint",
-  //       // "_blank"
-  //       "https://rzp.io/l/N5o2M2Kuo"
-  //     );
-  //     navigate("/");
-  //   }, 3000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      window.open("https://rzp.io/l/K2MpRoQ7WY");
+      navigate("/");
+    }, 3000);
+  }, []);
   return (
     <>
       <div className="flex justify-center ">
